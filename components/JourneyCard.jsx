@@ -3,9 +3,8 @@ import React from "react";
 export default function JourneyCard({img, location,googleMapsUrl, title,startDate,endDate,description})  {
     return (
         <div className="Card">
-            <div>
-                <img className="CardImage" src={img}  alt="card image" />
-            </div>
+    
+            <img className="CardImage" src={img}  alt="card image" />
             <div className="CardContent">
                 <div className="LocationDetails Flex">
                     <img src="./location-dot-solid.svg" alt="location icon" className="Icons" />

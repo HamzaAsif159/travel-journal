@@ -62,6 +62,12 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  
+
+  .CardImage {
+    max-width: 100%;
+    object-fit: cover;
+  }
   .NavHeading {
     font-size: 15px;
   }
@@ -74,6 +80,9 @@ nav {
     margin-top: 15px;
     gap: 8px;
     padding: 15px;
+  }
+  .CardContent > *:last-child {
+    max-width: 700px;
   }
   .LocationDetails {
     gap: 10px !important;
