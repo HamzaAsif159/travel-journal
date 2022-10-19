@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  min-width: 400px;
+  background-color: blue;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.NavHeading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.CardContent > *:last-child {
+  max-width: 700px;
+}
+
+.LocationDetails {
+  align-items: center;
+  font-size: 15px;
+}
+
+.LocationDetails,
+.Card {
+  gap: 20px;
+}
+
+.CardImage {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.Icons {
+  height: 20px;
+  
+}
+
+.Plane {
+  fill: white;
+}
+
+@media screen and (max-width: 600px) {
+  .NavHeading {
+    font-size: 15px;
+  }
+  .Card {
+    display: block;
+    gap: 10px;
+    padding: 0;
+  }
+  .CardContent {
+    margin-top: 15px;
+    gap: 8px;
+    padding: 15px;
+  }
+  .LocationDetails {
+    gap: 10px !important;
+    font-size: 13px;
+  }
+}

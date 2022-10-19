@@ -1,0 +1,12 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.Flex {
+  display: flex;
+}
+
+.Uppercase {
+  text-transform: uppercase;
+}
