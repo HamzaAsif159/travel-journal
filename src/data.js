@@ -23,7 +23,7 @@ export default [
         location: "Thailand",
         googleMapsUrl: "https://goo.gl/maps/WuYZ9CSXx6yYEzEp7",
         startDate: "15 Aug, 2020",
-        endDate: "24 Aug, 20210",
+        endDate: "24 Aug, 2021",
         description: "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is Wat Pho Temple with an enormous reclining Buddha and, on the opposite shore, Wat Arun Temple with its steep steps and Khmer-style spire.",
         imageUrl: "https://source.unsplash.com/JikuIbCCiM8"
     },
